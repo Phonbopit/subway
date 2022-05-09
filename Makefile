@@ -1,4 +1,4 @@
 test:
-	cargo +nightly test
+	cd subway && cargo +nightly test
 build:
-	cargo +nightly contract build --release
+	cd subway && cargo +nightly contract build --release
